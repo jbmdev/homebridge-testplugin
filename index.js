@@ -7,7 +7,7 @@ module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
   HomebridgeAPI = homebridge;
-  homebridge.registerAccessory("homebridge-dummy", "DummySwitch", DummySwitch);
+  homebridge.registerAccessory("homebridge-dummy", "DummySwitchJBM", DummySwitch);
 }
 
 function DummySwitch(log, config) {
@@ -42,7 +42,7 @@ DummySwitch.prototype.getServices = function() {
 
 DummySwitch.prototype._setOn = function(on, callback) {
 
-  this.log("Setting switch to " + on);
+  this.log("JBM : Setting switch to " + on);
 
   if (on && !this.reverse && !this.stateful) {
     setTimeout(function() {
