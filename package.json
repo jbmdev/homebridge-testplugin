@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-testplugin",
+  "version": "0.0.1",
+  "description": "Dummy",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbmdev/homebridge-testplugin.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jbmdev/homebridge-testplugin/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "node-persist": "^2.1.0"
+  }
+}

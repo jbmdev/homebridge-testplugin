@@ -1,1 +1,5 @@
-# homebridge-testplugin
+# Dummy Plugin
+
+
+
+
